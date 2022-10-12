@@ -1,17 +1,13 @@
+# Questao 2 
+## LETRA A 
+  docker container run tomcat Esse comando cria uma novo container (caso exista ele apenas o inicia) com a imagem tomcat  
 
-# Questao 1
-## OBS eu ja tinha o docker instalado na maquina entao esses passos foi o que eu segui na hora da instalação
-### Referencia curso Docker Essentials na Udemy 
-sudo apt-get update
-sudo apt-get install \
-     apt-transport-https \
-     ca-certificates \
-     curl \
-     software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository \
-     "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-     ${lsb_release -cs} \
-     stable"
-sudo apt-get update
-sudo apt-get install docker-ce
+  (caso a mesma tabem nao exista ele baixa a imagem tambem)  
+
+## LETRA B   
+
+  docker container ls lista todos os containers ativos no momento (caso queira todos os containers usar flag -a)  
+
+## LETRA C  
+
+  docker image ls lista todas as images baixadas localmente  

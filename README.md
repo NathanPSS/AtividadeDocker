@@ -1,13 +1,14 @@
-# Questao 2 
-## LETRA A 
-  docker container run tomcat Esse comando cria uma novo container (caso exista ele apenas o inicia) com a imagem tomcat  
+# 4 VANTAGENS 
+  Mais Facilidades no Desenvolvimento de Aplicações em Geral como:  
 
-  (caso a mesma tabem nao exista ele baixa a imagem tambem)  
+  Garantia de Funcionamento em qualquer maquina pois o docker ultiliza a virtualização  
 
-## LETRA B   
+  Isolamento  
 
-  docker container ls lista todos os containers ativos no momento (caso queira todos os containers usar flag -a)  
+  Com o isolamento fica facil poder construir uma aplicação com seu codigo libs etc e assim replica-la em em varios sistemas escalando o processo
+  Rercusos  
 
-## LETRA C  
-
-  docker image ls lista todas as images baixadas localmente  
+  O docker ultiliza menos recursos computacionais que uma implementação de apps em produção ultilizandos VMS
+  Comunidade  
+  
+  O docker é open-source e conta com uma comunidade imensa além de ter uma boa documentação 
